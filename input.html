@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> forms and input</title>
+</head>
+<!-- forms and input -->
+<body>
+    <form action="backend.php">
+    <br>
+    <div>
+        <label for="name"> Name:</label>
+        <input type="text" id="name">
+    </div>
+     <br>
+    <div>
+        Reg No.:<input type="text">
+    </div>
+    <br>
+    <div>
+        Email:<input type="mail" name="mymail">
+    </div>
+    <br>
+    <div>
+        Gender: Male <input type="radio" name="mygender"> Female <input type="radio" name="mygender"> Others<input type="radio" name="mygender">
+    </div>
+    <br>
+    <div>
+        mobile no:<input type="bonus">
+    </div>
+    <div>
+        Are u eligible?<input type="checkbox">
+    </div>
+    <br>
+    <div>
+        DOB:<input type="date" name="mydate">
+    </div>
+    <br>
+    <div>
+        Write about yourself:<br><textarea type="mytext" rows="15" cols="50"></textarea>
+    </div>
+    <div>
+        <label for="car">Car:</label>
+        <select name="mycar" id="car">
+            <option value="Suzuki">Suzuki</option>
+            <option value="Hyundai" selected>Hyundai</option>
+            <option value="kia">kia</option>
+        </select>
+    </div>
+    <br>
+    <div>
+        Color:<select name="mycolor">
+            <option value="Red">Red</option>
+            <option value="Green" selected>Green</option>
+            <option value="Orange">Orange</option>
+            <option value="Purple">Purple</option>
+            <option value="Yellow">Yellow</option>
+        </select>
+    </div>
+    <div>
+        <input type="submit" value="submit">
+        <input type="reset" value="reset">
+    </div>
+    </form>
+</body>
+</html>
